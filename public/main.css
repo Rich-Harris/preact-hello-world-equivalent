@@ -1,0 +1,25 @@
+
+	[svelte-2852594613].App, [svelte-2852594613] .App {
+		text-align: center;
+	}
+
+	[svelte-2852594613].App-logo, [svelte-2852594613] .App-logo {
+		animation: svelte-2852594613-App-logo-spin infinite 20s linear;
+		height: 80px;
+	}
+
+	[svelte-2852594613].App-header, [svelte-2852594613] .App-header {
+		background-color: #222;
+		height: 150px;
+		padding: 20px;
+		color: white;
+	}
+
+	[svelte-2852594613].App-intro, [svelte-2852594613] .App-intro {
+		font-size: large;
+	}
+
+	@keyframes svelte-2852594613-App-logo-spin {
+		from { transform: rotate(0deg); }
+		to { transform: rotate(360deg); }
+	}

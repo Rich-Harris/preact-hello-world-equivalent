@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-svelte": "^1.6.1",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-watch": "^3.2.2",
+    "serve": "^5.1.1"
+  },
+  "scripts": {
+    "start": "serve public",
+    "dev": "rollup -c -w --environment DEV & http-server",
+    "build": "rollup -c && node scripts/css"
+  }
+}
